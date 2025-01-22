@@ -25,7 +25,8 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG")
 
-ALLOWED_HOSTS = ['https://django-react-deploy-frontend.vercel.app/']
+ALLOWED_HOSTS = ['https://django-react-deploy-frontend.vercel.app/',
+                 'django-react-deploy-backend.onrender.com']
 
 CORS_ALLOWED_ORIGINS = [
     "https://django-react-deploy-frontend.vercel.app/",  # Add the domains you want to allow
